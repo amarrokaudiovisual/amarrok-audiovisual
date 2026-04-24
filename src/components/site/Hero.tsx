@@ -24,7 +24,14 @@ export const Hero = () => (
         <img
           src={logo}
           alt="Amarrok"
-          className="h-20 sm:h-28 md:h-36 lg:h-44 w-auto object-contain drop-shadow-[0_0_40px_hsl(var(--gold)/0.25)]"
+          style={{
+            mixBlendMode: "screen",
+            WebkitMaskImage:
+              "radial-gradient(ellipse 60% 70% at 50% 50%, #000 55%, transparent 100%)",
+            maskImage:
+              "radial-gradient(ellipse 60% 70% at 50% 50%, #000 55%, transparent 100%)",
+          }}
+          className="h-40 sm:h-56 md:h-72 lg:h-80 xl:h-96 w-auto object-contain drop-shadow-[0_0_60px_hsl(var(--gold)/0.25)]"
         />
       </h1>
       <div className="mt-10 mx-auto max-w-md">
