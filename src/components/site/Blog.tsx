@@ -6,7 +6,7 @@ export const Blog = () => (
   <section id="blog" className="relative py-28 md:py-40 bg-card/30">
     <div className="container">
       <SectionHeading
-        eyebrow="Diário"
+        eyebrow="Blog"
         title="Notas do Estúdio"
         description="Insights, bastidores e referências sobre o universo audiovisual de alto padrão."
       />
