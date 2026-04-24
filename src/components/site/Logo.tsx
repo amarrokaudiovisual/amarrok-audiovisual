@@ -13,7 +13,7 @@ export const Logo = ({
   const heights = {
     sm: "h-8 md:h-9",
     md: "h-12 md:h-14",
-    lg: "h-16 md:h-20",
+    lg: "h-24 md:h-32 lg:h-40",
   } as const;
   return (
     <div className={cn("inline-flex flex-col items-center", className)}>
