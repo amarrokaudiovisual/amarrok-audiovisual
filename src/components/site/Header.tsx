@@ -4,10 +4,12 @@ import { cn } from "@/lib/utils";
 
 const links = [
   { href: "#sobre", label: "Sobre" },
+  { href: "#pzf", label: "Zero Falha" },
   { href: "#led", label: "LED" },
   { href: "#som", label: "Sonorização" },
   { href: "#luz", label: "Iluminação" },
   { href: "#dj", label: "DJ" },
+  { href: "#processo", label: "Processo" },
   { href: "#blog", label: "Blog" },
   { href: "#contato", label: "Contato" },
 ];
@@ -49,7 +51,7 @@ export const Header = () => {
           rel="noopener noreferrer"
           className="hidden md:inline-flex items-center text-[0.7rem] uppercase tracking-[0.3em] font-heading text-gold border border-gold/40 px-4 py-2 hover:bg-gold hover:text-gold-foreground transition-all duration-300"
         >
-          Orçamento
+          Briefing
         </a>
       </div>
     </header>

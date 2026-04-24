@@ -1,6 +1,8 @@
 import { Header } from "@/components/site/Header";
 import { Hero } from "@/components/site/Hero";
 import { About } from "@/components/site/About";
+import { Pzf } from "@/components/site/Pzf";
+import { Process } from "@/components/site/Process";
 import { ServiceShowcase } from "@/components/site/ServiceShowcase";
 import { Blog } from "@/components/site/Blog";
 import { Location } from "@/components/site/Location";
@@ -19,29 +21,30 @@ const Index = () => {
       <main>
         <Hero />
         <About />
+        <Pzf />
 
         <ServiceShowcase
           id="led"
           eyebrow="Visual"
-          title="Painéis de LED Fine Pitch"
-          description="Nossos painéis funcionam como elementos cenográficos que elevam a narrativa visual do evento."
+          title="Painéis de LED Fine Pitch para Plenárias"
+          description="Telões de alta resolução para palcos corporativos, plenárias, lançamentos de produtos e eventos híbridos. Cada projeto inclui layout técnico, simulação 3D e operação dedicada."
           image={ledImg}
           features={[
-            { title: "Qualidade de Cinema", description: "Telas de alta definição com pixel pitch reduzido, garantindo imagens nítidas mesmo em curta distância." },
-            { title: "Design Versátil", description: "Montagens personalizadas que se integram harmonicamente à arquitetura e decoração do espaço." },
-            { title: "Conteúdo Curado", description: "Suporte para VJs e brilho calibrado para manter a elegância e o conforto visual." },
+            { title: "Resolução de Cinema", description: "Pixel pitch reduzido com leitura nítida em curta distância, ideal para palestras e apresentações de marca." },
+            { title: "Engenharia de Palco", description: "Estruturas modulares projetadas em 3D, integradas à cenografia e ao branding do cliente." },
+            { title: "Operação Híbrida", description: "Switching, captação e transmissão simultânea para audiências presenciais e remotas." },
           ]}
         />
 
         <ServiceShowcase
           id="som"
           eyebrow="Áudio"
-          title="Sonorização Signature com RCF Italy"
-          description="A fidelidade sonora é inegociável. Operamos exclusivamente com sistemas RCF, referência mundial em engenharia italiana, garantindo uma experiência auditiva rica e envolvente."
+          title="Sonorização Corporativa RCF Italy"
+          description="Inteligibilidade absoluta para a palavra falada e fidelidade musical de referência. Sistemas RCF dimensionados por engenharia acústica, com redundância total de mesa, processamento e cabeamento."
           image={soundImg}
           features={[
-            { title: "Clareza Absoluta", description: "Tecnologia digital que garante definição máxima, dos brindes à alta performance na pista." },
-            { title: "Design Discreto", description: "Equipamentos de alta performance que respeitam o minimalismo visual do ambiente." },
+            { title: "Inteligibilidade Garantida", description: "Cobertura calculada por software para que cada palavra chegue com clareza a todos os pontos do salão." },
+            { title: "Redundância Total", description: "Mesas, processadores e amplificadores em backup ativo. Se algo falhar, ninguém percebe." },
           ]}
           reverse
         />
@@ -49,28 +52,29 @@ const Index = () => {
         <ServiceShowcase
           id="luz"
           eyebrow="Atmosfera"
-          title="Iluminação Cênica e Arquitetural"
-          description="A luz define a atmosfera de cada momento, valorizando a decoração e guiando as emoções."
+          title="Iluminação Cênica, Arquitetural e Corporativa"
+          description="Desenho de luz para keynotes, painéis, premiações e ativações de marca. Programação que conduz a narrativa do evento e valoriza câmeras de captação e transmissão."
           image={lightImg}
           features={[
-            { title: "Transições Fluídas", description: "Programação inteligente que evolui do clima intimista do jantar para a energia da festa." },
-            { title: "Montagem Clean", description: "Foco total na estética, com infraestrutura organizada e cabeamento embutido." },
+            { title: "Luz para Câmera", description: "Temperatura e intensidade calibradas para captação broadcast e transmissão híbrida." },
+            { title: "Montagem Invisível", description: "Rigging limpo, cabeamento embutido e operação discreta, preservando a estética da marca." },
           ]}
         />
 
         <ServiceShowcase
           id="dj"
           eyebrow="Performance"
-          title="Curadoria Musical & DJ"
-          description="Nossos DJs realizam a leitura de pista em tempo real, conectando-se ao perfil dos anfitriões através de um repertório cosmopolita, técnico e altamente sofisticado."
+          title="Curadoria Musical para Marcas e Anfitriões"
+          description="Trilha sonora desenhada para a identidade do evento corporativo: do welcome coffee ao after, com leitura precisa de público e repertório alinhado ao posicionamento da marca."
           image={djImg}
           features={[
-            { title: "Leitura de Pista", description: "Análise contínua do público para guiar transições e criar momentos de pico inesquecíveis." },
-            { title: "Repertório Cosmopolita", description: "Curadoria internacional que dialoga com a identidade dos anfitriões e dos convidados." },
+            { title: "Leitura de Audiência", description: "Análise em tempo real para conduzir a energia do ambiente em cada momento do evento." },
+            { title: "Repertório Sob Medida", description: "Curadoria internacional alinhada ao briefing da marca, do público e dos anfitriões." },
           ]}
           reverse
         />
 
+        <Process />
         <Blog />
         <Location />
       </main>
