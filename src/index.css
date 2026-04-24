@@ -125,10 +125,10 @@
     border: 1px solid hsl(var(--gold) / 0.1);
   }
   .heading-display {
-    font-family: 'Syncopate', 'Space Grotesk', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.18em;
-    font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: none;
+    letter-spacing: -0.01em;
+    font-weight: 300;
   }
   .heading-section {
     font-family: 'Space Grotesk', sans-serif;
