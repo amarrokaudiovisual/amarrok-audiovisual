@@ -32,7 +32,7 @@ export const ServiceShowcase = ({ id, eyebrow, title, description, image, featur
         </div>
 
         <div>
-          <p className="text-gold text-[0.65rem] tracking-[0.5em] uppercase mb-5 font-heading">— {eyebrow} —</p>
+          <p className="text-gold text-[0.65rem] tracking-[0.5em] uppercase mb-5 font-heading">{eyebrow}</p>
           <h2 className="heading-display text-foreground text-3xl md:text-4xl leading-tight">{title}</h2>
           <div className="mt-6 h-px w-20 bg-gradient-to-r from-gold to-transparent" />
           <p className="mt-8 text-muted-foreground text-base md:text-lg leading-relaxed font-body">{description}</p>

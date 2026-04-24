@@ -12,7 +12,7 @@ export const SectionHeading = ({ eyebrow, title, description, align = "center", 
   <div className={cn("max-w-3xl", align === "center" ? "mx-auto text-center" : "text-left", className)}>
     {eyebrow && (
       <p className="text-gold text-[0.65rem] tracking-[0.5em] uppercase mb-5 font-heading">
-        — {eyebrow} —
+        {eyebrow}
       </p>
     )}
     <h2 className="heading-display text-foreground text-3xl md:text-4xl lg:text-5xl leading-tight">
