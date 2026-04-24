@@ -1,0 +1,55 @@
+import heroImg from "@/assets/hero-stage.jpg";
+
+export const Hero = () => (
+  <section id="top" className="relative min-h-[100svh] flex items-center justify-center overflow-hidden">
+    {/* Background fog image */}
+    <div className="absolute inset-0">
+      <img
+        src={heroImg}
+        alt=""
+        aria-hidden="true"
+        className="h-full w-full object-cover opacity-70 animate-fog-drift"
+      />
+      <div className="absolute inset-0 bg-gradient-fog" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/30 to-background" />
+    </div>
+
+    {/* Content */}
+    <div className="relative z-10 container text-center animate-fade-in-up">
+      <p className="text-gold/80 text-[0.65rem] md:text-xs tracking-[0.5em] uppercase mb-8 font-heading">
+        — Campinas · São Paulo —
+      </p>
+      <h1 className="font-display text-gold text-5xl sm:text-7xl md:text-8xl lg:text-9xl lowercase tracking-[0.18em] leading-none drop-shadow-[0_0_40px_hsl(var(--gold)/0.25)]">
+        amarrok
+      </h1>
+      <div className="mt-10 mx-auto max-w-md">
+        <div className="laser-line animate-laser-pulse" />
+      </div>
+      <p className="mt-8 text-foreground/85 text-sm md:text-base tracking-[0.4em] uppercase font-heading">
+        Audiovisual Experience
+      </p>
+      <p className="mt-12 max-w-2xl mx-auto text-muted-foreground text-base md:text-lg leading-relaxed font-body">
+        Experiência sensorial de alto padrão em sonorização, iluminação e LED.
+        Tecnologia de ponta e curadoria artística para celebrações exclusivas.
+      </p>
+      <div className="mt-12 flex flex-wrap items-center justify-center gap-5">
+        <a
+          href="#contato"
+          className="group relative inline-flex items-center gap-3 px-8 py-4 border border-primary bg-background text-xs uppercase tracking-[0.3em] font-heading text-foreground transition-all duration-500 hover:shadow-laser hover:bg-gradient-to-r hover:from-background hover:to-primary/20"
+        >
+          <span>Solicitar Orçamento</span>
+          <span className="h-px w-6 bg-primary transition-all group-hover:w-10" />
+        </a>
+        <a
+          href="#sobre"
+          className="inline-flex items-center text-xs uppercase tracking-[0.3em] font-heading text-gold border border-gold/30 px-8 py-4 hover:bg-gold/5 hover:border-gold transition-all duration-300"
+        >
+          Conheça
+        </a>
+      </div>
+    </div>
+
+    {/* Bottom laser line */}
+    <div className="absolute bottom-0 inset-x-0 h-px laser-line animate-laser-pulse" />
+  </section>
+);
