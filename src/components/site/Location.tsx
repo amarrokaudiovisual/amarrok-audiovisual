@@ -10,7 +10,12 @@ export const Location = () => (
       />
 
       <div className="mt-20 grid gap-10 md:grid-cols-2 max-w-5xl mx-auto">
-        <div className="glass p-10 md:p-12 relative overflow-hidden group">
+        <a
+          href="https://share.google/K3pUhLdCU35LOKIIG"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="glass p-10 md:p-12 relative overflow-hidden group block transition-all duration-500 hover:border-gold/40 hover:shadow-gold"
+        >
           <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold/60 to-transparent" />
           <MapPin className="h-6 w-6 text-gold" strokeWidth={1.2} />
           <h3 className="mt-6 heading-section text-xl text-foreground">Localização</h3>
@@ -21,9 +26,13 @@ export const Location = () => (
           <p className="text-muted-foreground text-base leading-relaxed font-body">
             Jardim Campos Eliseos
             <br />
-            Campinas — SP
+            Campinas, SP
           </p>
-        </div>
+          <span className="mt-6 inline-flex items-center gap-2 text-[0.65rem] tracking-[0.3em] uppercase font-heading text-gold/80 group-hover:text-gold transition-colors">
+            Ver no Google Maps
+            <span className="h-px w-6 bg-gold/60 group-hover:w-10 transition-all" />
+          </span>
+        </a>
 
         <div className="glass p-10 md:p-12 relative overflow-hidden">
           <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/80 to-transparent shadow-[0_0_10px_hsl(var(--red)/0.5)]" />

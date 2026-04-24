@@ -15,7 +15,7 @@ export const Footer = () => (
         <div className="mt-10 h-px w-24 bg-gradient-to-r from-transparent via-gold/60 to-transparent" />
 
         <p className="mt-10 text-gold text-[0.65rem] tracking-[0.5em] uppercase font-heading">
-          — Áreas Atendidas —
+          Áreas Atendidas
         </p>
         <ul className="mt-6 max-w-3xl flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-xs text-muted-foreground tracking-[0.15em] uppercase font-heading">
           {servicedAreas.map((area, i) => (

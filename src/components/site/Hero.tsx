@@ -18,7 +18,7 @@ export const Hero = () => (
     {/* Content */}
     <div className="relative z-10 container text-center animate-fade-in-up">
       <p className="text-gold/80 text-[0.65rem] md:text-xs tracking-[0.5em] uppercase mb-8 font-heading">
-        — Campinas · São Paulo —
+        Campinas · São Paulo
       </p>
       <h1 className="flex justify-center">
         <img
