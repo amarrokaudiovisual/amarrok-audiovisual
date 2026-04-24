@@ -1,4 +1,5 @@
 import heroImg from "@/assets/hero-stage.jpg";
+import logo from "@/assets/amarrok-logo.png";
 
 export const Hero = () => (
   <section id="top" className="relative min-h-[100svh] flex items-center justify-center overflow-hidden">
@@ -19,15 +20,16 @@ export const Hero = () => (
       <p className="text-gold/80 text-[0.65rem] md:text-xs tracking-[0.5em] uppercase mb-8 font-heading">
         — Campinas · São Paulo —
       </p>
-      <h1 className="font-display text-gold text-5xl sm:text-7xl md:text-8xl lg:text-9xl lowercase tracking-[0.18em] leading-none drop-shadow-[0_0_40px_hsl(var(--gold)/0.25)]">
-        amarrok
+      <h1 className="flex justify-center">
+        <img
+          src={logo}
+          alt="Amarrok"
+          className="h-20 sm:h-28 md:h-36 lg:h-44 w-auto object-contain drop-shadow-[0_0_40px_hsl(var(--gold)/0.25)]"
+        />
       </h1>
       <div className="mt-10 mx-auto max-w-md">
         <div className="laser-line animate-laser-pulse" />
       </div>
-      <p className="mt-8 text-foreground/85 text-sm md:text-base tracking-[0.4em] uppercase font-heading">
-        Audiovisual Experience
-      </p>
       <p className="mt-12 max-w-2xl mx-auto text-muted-foreground text-base md:text-lg leading-relaxed font-body">
         Experiência sensorial de alto padrão em sonorização, iluminação e LED.
         Tecnologia de ponta e curadoria artística para celebrações exclusivas.
