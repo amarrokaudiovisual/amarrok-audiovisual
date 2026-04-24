@@ -18,7 +18,7 @@ export const Hero = () => (
     {/* Content */}
     <div className="relative z-10 container text-center animate-fade-in-up">
       <p className="text-gold/80 text-[0.65rem] md:text-xs tracking-[0.5em] uppercase mb-8 font-heading">
-        Campinas · São Paulo
+        Engenharia de Experiências Audiovisuais
       </p>
       <h1 className="flex justify-center">
         <img
@@ -38,22 +38,23 @@ export const Hero = () => (
         <div className="laser-line animate-laser-pulse" />
       </div>
       <p className="mt-12 max-w-2xl mx-auto text-muted-foreground text-base md:text-lg leading-relaxed font-body">
-        Experiência sensorial de alto padrão em sonorização, iluminação e LED.
-        Tecnologia de ponta e curadoria artística para celebrações exclusivas.
+        Convenções, plenárias, lançamentos de produtos e eventos híbridos
+        operados sob o Protocolo Zero Falha. Engenharia técnica, redundância
+        total e entrega de luxo para o mercado corporativo.
       </p>
       <div className="mt-12 flex flex-wrap items-center justify-center gap-5">
         <a
           href="#contato"
           className="group relative inline-flex items-center gap-3 px-8 py-4 border border-primary bg-background text-xs uppercase tracking-[0.3em] font-heading text-foreground transition-all duration-500 hover:shadow-laser hover:bg-gradient-to-r hover:from-background hover:to-primary/20"
         >
-          <span>Solicitar Orçamento</span>
+          <span>Solicitar Projeto Técnico</span>
           <span className="h-px w-6 bg-primary transition-all group-hover:w-10" />
         </a>
         <a
-          href="#sobre"
+          href="#pzf"
           className="inline-flex items-center text-xs uppercase tracking-[0.3em] font-heading text-gold border border-gold/30 px-8 py-4 hover:bg-gold/5 hover:border-gold transition-all duration-300"
         >
-          Conheça
+          Protocolo Zero Falha
         </a>
       </div>
     </div>

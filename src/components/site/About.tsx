@@ -5,15 +5,15 @@ export const About = () => (
     <div className="container">
       <SectionHeading
         eyebrow="Sobre"
-        title="Experiência Sensorial de Alto Padrão"
-        description="Transformamos celebrações exclusivas em memórias inesquecíveis através da convergência perfeita entre tecnologia de ponta e curadoria artística. Nosso compromisso é entregar uma estética impecável e uma sonoridade cristalina, desenhadas sob medida para o público mais exigente."
+        title="Engenharia de Experiências Audiovisuais"
+        description="Somos parceiros estratégicos para convenções, plenárias, lançamentos de produtos e eventos híbridos. Desenhamos o fluxo técnico, o layout de palco e a operação completa com redundância total de sistemas, garantindo que sua marca seja entregue com fidelidade absoluta e zero margem para falha."
       />
 
       <div className="mt-20 grid gap-px bg-border md:grid-cols-3 border border-border">
         {[
-          { k: "01", t: "Sonorização", d: "RCF Italy" },
-          { k: "02", t: "Iluminação", d: "Cênica & Arquitetural" },
-          { k: "03", t: "LED Fine Pitch", d: "Cinema Quality" },
+          { k: "01", t: "Engenharia Sonora", d: "Sistemas RCF Italy com redundância" },
+          { k: "02", t: "Design de Iluminação", d: "Cênica, arquitetural e corporativa" },
+          { k: "03", t: "LED Fine Pitch", d: "Plenárias, palcos e cenografia" },
         ].map((i) => (
           <div key={i.k} className="bg-background p-10 md:p-12 group hover:bg-card transition-colors duration-500">
             <div className="text-gold/40 font-display text-xs tracking-[0.4em]">{i.k}</div>
