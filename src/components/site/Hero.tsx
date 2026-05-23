@@ -9,6 +9,8 @@ export const Hero = () => (
         src={heroImg}
         alt=""
         aria-hidden="true"
+        fetchPriority="high"
+        decoding="async"
         className="h-full w-full object-cover opacity-70 animate-fog-drift"
       />
       <div className="absolute inset-0 bg-gradient-fog" />
