@@ -28,7 +28,7 @@ export const Footer = () => (
           ))}
         </ul>
 
-        <p className="mt-12 text-xs text-muted-foreground/60 tracking-wider font-body">
+        <p className="mt-12 text-xs text-muted-foreground tracking-wider font-body">
           © {new Date().getFullYear()} Amarrok Audiovisual Experience. Todos os direitos reservados.
         </p>
       </div>
