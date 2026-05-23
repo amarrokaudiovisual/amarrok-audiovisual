@@ -6,7 +6,7 @@ export const About = () => (
       <SectionHeading
         eyebrow="Sobre"
         title="Engenharia de Experiências Audiovisuais"
-        description="Somos parceiros estratégicos para convenções, plenárias, lançamentos de produtos e eventos híbridos. Desenhamos o fluxo técnico, o layout de palco e a operação completa com redundância total de sistemas, garantindo que sua marca seja entregue com fidelidade absoluta e zero margem para falha."
+        description="Somos parceiros de quem não aceita improviso: do lançamento corporativo ao casamento dos sonhos, do palco da convenção à pista do aniversário de 15 anos. Cuidamos de cada detalhe técnico nos bastidores para que, na frente, só restem aplausos, fotos perfeitas e a certeza de que tudo saiu como você sonhou."
       />
 
       <div className="mt-20 grid gap-px bg-border md:grid-cols-3 border border-border">
