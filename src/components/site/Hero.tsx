@@ -38,16 +38,16 @@ export const Hero = () => (
         <div className="laser-line animate-laser-pulse" />
       </div>
       <p className="mt-12 max-w-2xl mx-auto text-muted-foreground text-base md:text-lg leading-relaxed font-body">
-        Convenções, plenárias, lançamentos de produtos e eventos híbridos
-        operados sob o Protocolo Zero Falha. Engenharia técnica, redundância
-        total e entrega de luxo para o mercado corporativo.
+        Tecnologia de ponta, estrutura impecável e curadoria artística para
+        transformar eventos corporativos e grandes celebrações sociais em
+        memórias inesquecíveis.
       </p>
       <div className="mt-12 flex flex-wrap items-center justify-center gap-5">
         <a
           href="#contato"
           className="group relative inline-flex items-center gap-3 px-8 py-4 border border-primary bg-background text-xs uppercase tracking-[0.3em] font-heading text-foreground transition-all duration-500 hover:shadow-laser hover:bg-gradient-to-r hover:from-background hover:to-primary/20"
         >
-          <span>Solicitar Projeto Técnico</span>
+          <span>Planejar meu evento</span>
           <span className="h-px w-6 bg-primary transition-all group-hover:w-10" />
         </a>
         <a

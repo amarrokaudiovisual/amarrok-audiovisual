@@ -3,23 +3,23 @@ import { ShieldCheck, Layers, Radio, Wrench } from "lucide-react";
 const pillars = [
   {
     icon: ShieldCheck,
-    title: "Mesa em Backup Ativo",
-    description: "Console principal e reserva sincronizados. Troca instantânea sem interrupção do evento.",
+    title: "Som com Plano B Ativo",
+    description: "Mesa principal e reserva sincronizadas. Se algo falhar, a troca acontece em milissegundos e ninguém percebe.",
   },
   {
     icon: Layers,
-    title: "Processamento Redundante",
-    description: "DSPs, amplificadores e roteadores duplicados em hot-swap para sinal sempre íntegro.",
+    title: "LED e Luz Duplicados",
+    description: "Equipamentos críticos de luz e imagem com reserva pronta para assumir, sem interromper o evento.",
   },
   {
     icon: Radio,
-    title: "Cabeamento e Energia",
-    description: "Linhas de sinal e energia independentes, com nobreak dedicado para o front of house.",
+    title: "Energia Garantida",
+    description: "Linhas independentes e nobreak dedicado. Uma queda de energia não interrompe o seu evento.",
   },
   {
     icon: Wrench,
-    title: "Equipe Reserva on-site",
-    description: "Técnicos especialistas posicionados durante todo o evento para resposta em segundos.",
+    title: "Equipe Reserva no Local",
+    description: "Técnicos especialistas posicionados durante todo o evento, prontos para resolver qualquer imprevisto em segundos.",
   },
 ];
 
@@ -59,10 +59,10 @@ export const Pzf = () => (
           </h2>
           <div className="mt-6 h-px w-20 bg-gradient-to-r from-gold to-transparent" />
           <p className="mt-6 text-muted-foreground text-base md:text-lg leading-relaxed font-body max-w-2xl">
-            O Protocolo Zero Falha é a engenharia de redundância total que aplicamos
-            em convenções, plenárias e lançamentos. Cada sinal crítico tem um
-            caminho reserva, cada equipamento tem um substituto pronto e cada
-            função tem um técnico dedicado.
+            Seu evento é único e não tem ensaio. Por isso, trabalhamos com
+            sistemas de backup ativos em som, luz e painéis de LED. Se o plano A
+            falhar, o plano B assume em milissegundos, sem que seus convidados
+            percebam nada.
           </p>
         </div>
       </div>
