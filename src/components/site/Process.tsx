@@ -61,7 +61,7 @@ export const Process = () => (
           Entrega Consultiva
         </p>
         <p className="mt-5 text-muted-foreground text-base md:text-lg leading-relaxed font-body">
-          Todo projeto Amarrok, corporativo ou social, inclui projeto prévio,
+          Os projetos Amarrok, corporativos ou sociais, podem incluir projeto prévio,
           simulação 3D do palco e segurança certificada nas estruturas.
           Você aprova o seu evento antes dele acontecer.
         </p>
