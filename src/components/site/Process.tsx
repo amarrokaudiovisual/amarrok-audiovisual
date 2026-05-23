@@ -5,26 +5,26 @@ const steps = [
   {
     n: "01",
     icon: Compass,
-    title: "Briefing Consultivo",
-    description: "Imersão no objetivo do evento, KPIs de marca e expectativa de audiência. Tradução estratégica em rider técnico.",
+    title: "Conversa de Imersão",
+    description: "Entendemos o objetivo do evento, o público esperado e o sentimento que você quer despertar nos convidados.",
   },
   {
     n: "02",
     icon: Box,
-    title: "Projeto Técnico em 3D",
-    description: "Layout de palco, posicionamento de PA, mapa de luz e simulação do ambiente entregues como render antes da execução.",
+    title: "Projeto Visual em 3D",
+    description: "Você vê o palco, as luzes e os painéis em uma simulação realista antes do evento acontecer. Sem surpresas no dia.",
   },
   {
     n: "03",
     icon: Users,
-    title: "Matilha em Operação",
-    description: "Equipe especializada por função, coordenada por um produtor técnico dedicado. Estratégia, hierarquia e disciplina.",
+    title: "Equipe Coordenada",
+    description: "Equipe especialista por função, sob a coordenação de um produtor técnico dedicado ao seu evento do início ao fim.",
   },
   {
     n: "04",
     icon: PlayCircle,
-    title: "Show Call & Pós-Evento",
-    description: "Operação ao vivo sob script de showcall, debrief técnico e relatório de entrega para o cliente corporativo.",
+    title: "Cronograma Milimétrico",
+    description: "Operação ao vivo seguindo um cronograma minucioso, com entrega sem surpresas e acompanhamento pós-evento.",
   },
 ];
 
@@ -33,8 +33,8 @@ export const Process = () => (
     <div className="container">
       <SectionHeading
         eyebrow="Processo"
-        title="A Matilha por trás de cada evento"
-        description="Não somos uma locadora de equipamentos. Operamos como uma engenharia industrial com entrega de luxo: cada projeto passa por quatro etapas de disciplina técnica, do briefing ao showcall."
+        title="Como conduzimos cada evento"
+        description="Não somos uma locadora de equipamentos. Somos parceiros do começo ao fim, com quatro etapas de cuidado para que o seu evento seja exatamente como você imaginou."
       />
 
       <div className="mt-20 grid gap-px bg-border border border-border md:grid-cols-2 lg:grid-cols-4">
@@ -61,9 +61,9 @@ export const Process = () => (
           Entrega Consultiva
         </p>
         <p className="mt-5 text-muted-foreground text-base md:text-lg leading-relaxed font-body">
-          Todo projeto corporativo Amarrok inclui desenho técnico prévio,
-          simulação 3D do palco e ART de responsabilidade técnica quando aplicável.
-          Você aprova o evento antes dele acontecer.
+          Todo projeto Amarrok, corporativo ou social, inclui projeto prévio,
+          simulação 3D do palco e segurança certificada nas estruturas.
+          Você aprova o seu evento antes dele acontecer.
         </p>
       </div>
     </div>
