@@ -1,4 +1,4 @@
-import { ShieldCheck, Layers, Radio, Wrench } from "lucide-react";
+import { ShieldCheck, Layers, Wrench } from "lucide-react";
 
 const pillars = [
   {
@@ -10,11 +10,6 @@ const pillars = [
     icon: Layers,
     title: "LED e Luz Duplicados",
     description: "Equipamentos críticos de luz e imagem com reserva pronta para assumir, sem interromper o evento.",
-  },
-  {
-    icon: Radio,
-    title: "Energia Garantida",
-    description: "Linhas independentes e nobreak dedicado. Uma queda de energia não interrompe o seu evento.",
   },
   {
     icon: Wrench,
@@ -68,7 +63,7 @@ export const Pzf = () => (
       </div>
 
       {/* Faixa compacta de pilares */}
-      <div className="mt-16 grid gap-px bg-border border border-border md:grid-cols-4">
+      <div className="mt-16 grid gap-px bg-border border border-border md:grid-cols-3">
         {pillars.map((p) => (
           <div key={p.title} className="bg-background p-6 md:p-7 group hover:bg-card transition-colors duration-500">
             <p.icon className="h-5 w-5 text-gold" strokeWidth={1.3} />
