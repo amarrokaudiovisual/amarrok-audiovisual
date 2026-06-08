@@ -31,6 +31,17 @@ export const Footer = () => (
         <p className="mt-12 text-xs text-muted-foreground tracking-wider font-body">
           © {new Date().getFullYear()} Amarrok Audiovisual Experience. Todos os direitos reservados.
         </p>
+        <p className="mt-3 text-[0.7rem] text-muted-foreground/70 tracking-wider font-body">
+          Parceiros:{" "}
+          <a
+            href="https://www.bandabarbiekills.com.br"
+            target="_blank"
+            rel="noopener external"
+            className="text-muted-foreground/80 hover:text-gold transition-colors underline-offset-4 hover:underline"
+          >
+            Banda Barbie Kills
+          </a>
+        </p>
       </div>
     </div>
   </footer>
