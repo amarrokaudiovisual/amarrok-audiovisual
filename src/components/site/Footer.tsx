@@ -41,6 +41,15 @@ export const Footer = () => (
           >
             Banda Barbie Kills
           </a>
+          <span className="mx-2 text-muted-foreground/40" aria-hidden="true">|</span>
+          <a
+            href="https://www.djalexandreas.com.br"
+            target="_blank"
+            rel="noopener external"
+            className="text-muted-foreground/80 hover:text-gold transition-colors underline-offset-4 hover:underline"
+          >
+            DJ Alexandre AS
+          </a>
         </p>
       </div>
     </div>
