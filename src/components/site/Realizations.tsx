@@ -55,7 +55,21 @@ export const Realizations = () => (
             </h3>
             <div className="mt-5 h-px w-14 bg-primary/70" />
             <p className="mt-6 text-muted-foreground text-base leading-relaxed font-body">
-              {f.description}
+              {f.title === "Grandes Celebrações Sociais" ? (
+                <>
+                  <a
+                    href="https://www.bandabarbiekills.com.br/casamentos"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gold hover:underline underline-offset-4 transition-colors"
+                  >
+                    Casamentos premium
+                  </a>
+                  , aniversários de 15 anos e festas de gala onde a pista de dança precisa de energia máxima, iluminação cenográfica que valoriza a decoração e DJs com leitura de público em tempo real.
+                </>
+              ) : (
+                f.description
+              )}
             </p>
             <ul className="mt-8 grid grid-cols-2 gap-x-4 gap-y-3">
               {f.items.map((it) => (
