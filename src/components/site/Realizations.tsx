@@ -75,7 +75,18 @@ export const Realizations = () => (
               {f.items.map((it) => (
                 <li key={it} className="flex items-start gap-3 text-xs uppercase tracking-[0.18em] font-heading text-foreground/80">
                   <span className="mt-2 h-px w-4 bg-gold flex-shrink-0" />
-                  <span>{it}</span>
+                  {it === "Aniversários e confraternizações" ? (
+                    <a
+                      href="https://www.bandabarbiekills.com.br/blog/como-organizar-aniversario-inesquecivel-guia-barbie-kills"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-foreground/80 no-underline not-italic font-normal hover:text-foreground/80"
+                    >
+                      {it}
+                    </a>
+                  ) : (
+                    <span>{it}</span>
+                  )}
                 </li>
               ))}
             </ul>
