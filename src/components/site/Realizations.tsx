@@ -61,7 +61,7 @@ export const Realizations = () => (
                     href="https://www.bandabarbiekills.com.br/casamentos"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gold hover:underline underline-offset-4 transition-colors"
+                    className="text-muted-foreground no-underline not-italic hover:text-muted-foreground transition-colors"
                   >
                     Casamentos premium
                   </a>
