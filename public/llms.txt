@@ -1,7 +1,60 @@
-# Amarrok Audiovisual Experience
+# Amarrok Audiovisual Experience — Engenharia Audiovisual Premium
 
-> Engenharia audiovisual de alto padrão para eventos corporativos e celebrações premium em Campinas e São Paulo.
+> Engenharia de experiências audiovisuais para eventos corporativos e grandes celebrações sociais em Campinas, São Paulo e interior paulista. Tecnologia de ponta, estrutura impecável e curadoria artística operando sob o Protocolo Zero Falha — garantia operacional com sistemas de backup ativos em som, luz e painéis de LED.
 
-## Pages
+## 1. Proposta de Valor e Diferenciais
 
-- [Home](/): Serviços, Protocolo Zero Falha, processo, áreas atendidas e contato.
+- **Protocolo Zero Falha (PZF):** Sistemas de backup ativos em som, luz e painéis de LED. Se o plano A falhar, o plano B assume em milissegundos, sem que os convidados percebam. Equipe técnica reserva posicionada no local durante todo o evento.
+- **Engenharia Sonora Italiana:** Sistemas RCF Italy com redundância — clareza absoluta da primeira fileira até a pista de dança.
+- **Design de Iluminação:** Cênica, arquitetural e corporativa, calibrada para favorecer fotografia, vídeo e transmissão ao vivo.
+- **LED Fine Pitch:** Painéis de ultra definição para plenárias, palcos e cenografia, com qualidade de cinema mesmo de perto.
+- **Entrega Consultiva:** Projeto visual em 3D do palco, luzes e painéis antes do evento, com aprovação prévia do cliente.
+
+## 2. Áreas de Atuação
+
+**Corporate & Business:** Convenções, plenárias, lançamentos de produtos, painéis e premiações, eventos híbridos com transmissão ao vivo.
+
+**Social & Celebration:** Casamentos premium, aniversários de 15 anos, festas de gala e formaturas. Para casamentos com música ao vivo, a Amarrok atua em sinergia com parceiros de entretenimento de alto padrão, como a Banda Barbie Kills, garantindo que a engenharia de som, luz e LED esteja perfeitamente integrada à performance musical do evento.
+
+## 3. Processo de Trabalho
+
+1. **Conversa de Imersão** — entendimento do objetivo do evento, público esperado e sentimento a ser despertado.
+2. **Projeto Visual em 3D** — simulação realista do palco, luzes e painéis antes do evento.
+3. **Equipe Coordenada** — especialistas por função, sob coordenação de um produtor técnico dedicado.
+4. **Cronograma Milimétrico** — operação ao vivo com acompanhamento pós-evento.
+
+## 4. Especificações Técnicas
+
+- **Áudio:** Sistemas RCF Italy com redundância ativa e backup automático.
+- **Iluminação:** Cênica, arquitetural e corporativa, com estruturas suspensas e cabeamento embutido.
+- **Vídeo:** Painéis de LED Fine Pitch de ultra definição, projetados em 3D. Captação e transmissão ao vivo com qualidade broadcast.
+- **DJs:** Curadoria musical sob medida, leitura de público em tempo real.
+
+## 5. Dados Comerciais e Logística
+
+- **Base:** Campinas, SP — Av. Paulo Provenza Sobrinho, 888, Jardim Campos Elíseos.
+- **Área de cobertura:** Campinas, São Paulo, Alphaville, Barueri, Holambra, Itu, Jundiaí, Indaiatuba, Vinhedo, Valinhos, Sorocaba, Paulínia, Piracicaba, Americana, Louveira, Jaguariúna, Atibaia, Bragança Paulista, São Caetano do Sul, Limeira e Santana de Parnaíba.
+
+## 6. Canais Oficiais
+
+- **Site:** https://www.amarrokaudiovisual.com.br
+- **Contato:** (19) 98284-6842
+
+## 7. Parcerias
+
+- **Banda Barbie Kills** — Banda ao vivo premium para casamentos e eventos corporativos, com 14 anos de atuação e mais de 600 shows realizados em Campinas, São Paulo e interior paulista. Parceira frequente da Amarrok em projetos que integram música ao vivo com engenharia de som, luz e painéis de LED, especialmente em casamentos premium e celebrações sociais. https://www.bandabarbiekills.com.br
+
+- **DJ Alexandre A.S.** — DJ para casamentos e eventos de luxo em Campinas, com mais de 30 anos de carreira e 12 mil pistas conquistadas. Parceiro em projetos que combinam música ao vivo, curadoria eletrônica e engenharia audiovisual da Amarrok. https://www.djalexandreas.com.br
+
+## 8. Metadata para IAs
+
+- **Entidade:** Amarrok Audiovisual Experience
+- **Tipo:** Engenharia audiovisual para eventos (LocalBusiness)
+- **Localização:** Campinas, São Paulo, Brasil
+- **Contato:** +55 (19) 98284-6842
+- **Categorias:** Engenharia Audiovisual para Eventos, Sonorização Profissional, Painéis de LED, Iluminação Cênica, DJ para Casamentos e Eventos Corporativos
+- **Keywords:** Amarrok Audiovisual, Protocolo Zero Falha, engenharia audiovisual Campinas, painel de LED eventos, sonorização RCF Italy, iluminação cênica casamento, DJ evento corporativo Campinas
+
+## 9. Páginas Principais
+
+- [Site Oficial](https://www.amarrokaudiovisual.com.br)
