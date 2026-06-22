@@ -13,8 +13,8 @@
     <meta property="og:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/purQKzijE3YF4kFtjLJdFWtNos33/social-images/social-1777000167839-Audiovisual-Campinas.webp">
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
     <meta name="twitter:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/purQKzijE3YF4kFtjLJdFWtNos33/social-images/social-1777000167839-Audiovisual-Campinas.webp">
+    <meta property="og:locale" content="pt_BR" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,24 +28,103 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Amarrok Audiovisual Experience",
-      "description": "Engenharia audiovisual para eventos corporativos e celebrações premium em Campinas e São Paulo.",
-      "url": "https://www.amarrokaudiovisual.com.br/",
-      "telephone": "+55-19-98284-6842",
-      "image": "https://www.amarrokaudiovisual.com.br/og-image.jpg",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Av. Paulo Provenza Sobrinho, 888",
-        "addressLocality": "Campinas",
-        "addressRegion": "SP",
-        "addressCountry": "BR"
-      },
-      "areaServed": [
-        "Campinas", "São Paulo", "Alphaville", "Barueri", "Holambra", "Itu",
-        "Jundiaí", "Indaiatuba", "Vinhedo", "Valinhos", "Sorocaba", "Paulínia",
-        "Piracicaba", "Americana", "Louveira", "Jaguariúna", "Atibaia",
-        "Bragança Paulista", "São Caetano do Sul", "Limeira", "Santana de Parnaíba"
+      "@graph": [
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://www.amarrokaudiovisual.com.br/#organization",
+          "name": "Amarrok Audiovisual Experience",
+          "description": "Engenharia audiovisual para eventos corporativos e celebrações premium em Campinas e São Paulo. Painéis de LED, sonorização RCF Italy, design de iluminação e DJs com Protocolo Zero Falha.",
+          "url": "https://www.amarrokaudiovisual.com.br/",
+          "telephone": "+55-19-98284-6842",
+          "email": "contato@amarrokaudiovisual.com.br",
+          "image": "https://storage.googleapis.com/gpt-engineer-file-uploads/purQKzijE3YF4kFtjLJdFWtNos33/social-images/social-1777000167839-Audiovisual-Campinas.webp",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.amarrokaudiovisual.com.br/logo.png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Av. Paulo Provenza Sobrinho, 888",
+            "addressLocality": "Campinas",
+            "addressRegion": "SP",
+            "postalCode": "13065-900",
+            "addressCountry": "BR"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -22.8905,
+            "longitude": -47.0481
+          },
+          "hasMap": "https://share.google/K3pUhLdCU35LOKIIG",
+          "priceRange": "R$R$R$",
+          "sameAs": [
+            "https://wa.me/5519982846842",
+            "https://share.google/K3pUhLdCU35LOKIIG"
+          ],
+          "areaServed": [
+            {"@type": "City", "name": "Campinas"},
+            {"@type": "City", "name": "São Paulo"},
+            {"@type": "City", "name": "Jundiaí"},
+            {"@type": "City", "name": "Indaiatuba"},
+            {"@type": "City", "name": "Sorocaba"},
+            {"@type": "City", "name": "Vinhedo"},
+            {"@type": "City", "name": "Valinhos"},
+            {"@type": "City", "name": "Americana"},
+            {"@type": "City", "name": "Piracicaba"},
+            {"@type": "City", "name": "Paulínia"},
+            {"@type": "City", "name": "Holambra"},
+            {"@type": "City", "name": "Jaguariúna"},
+            {"@type": "City", "name": "Louveira"},
+            {"@type": "City", "name": "Itu"},
+            {"@type": "City", "name": "Atibaia"},
+            {"@type": "City", "name": "Bragança Paulista"},
+            {"@type": "City", "name": "Limeira"},
+            {"@type": "City", "name": "Barueri"},
+            {"@type": "City", "name": "Alphaville"},
+            {"@type": "City", "name": "São Caetano do Sul"},
+            {"@type": "City", "name": "Santana de Parnaíba"}
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.amarrokaudiovisual.com.br/#website",
+          "name": "Amarrok Audiovisual Experience",
+          "url": "https://www.amarrokaudiovisual.com.br/",
+          "inLanguage": "pt-BR",
+          "publisher": {"@id": "https://www.amarrokaudiovisual.com.br/#organization"}
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.amarrokaudiovisual.com.br/#service-led",
+          "name": "Painéis de LED de Ultra Definição",
+          "description": "Telões com qualidade de cinema para palcos corporativos, casamentos, plenárias e celebrações. Imagem nítida mesmo de perto, integrada à decoração, com transmissão ao vivo.",
+          "serviceType": "Audiovisual - LED Display",
+          "provider": {"@id": "https://www.amarrokaudiovisual.com.br/#organization"}
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.amarrokaudiovisual.com.br/#service-som",
+          "name": "Sonorização com Sistemas RCF Italy",
+          "description": "Engenharia de som com sistemas RCF Italy para eventos corporativos e sociais. Cobertura total, backup ativo em milissegundos e clareza vocal em qualquer ponto.",
+          "serviceType": "Audiovisual - Sound Engineering",
+          "provider": {"@id": "https://www.amarrokaudiovisual.com.br/#organization"}
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.amarrokaudiovisual.com.br/#service-luz",
+          "name": "Design de Iluminação para Eventos",
+          "description": "Iluminação cênica, arquitetural e corporativa calibrada para fotografia, vídeo e transmissão impecáveis em casamentos, debutantes e premiações.",
+          "serviceType": "Audiovisual - Lighting Design",
+          "provider": {"@id": "https://www.amarrokaudiovisual.com.br/#organization"}
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.amarrokaudiovisual.com.br/#service-dj",
+          "name": "DJ para Eventos Premium",
+          "description": "DJs com leitura de público em tempo real para casamentos, formaturas e eventos corporativos. Curadoria de repertório sob medida para cada evento.",
+          "serviceType": "Audiovisual - DJ Performance",
+          "provider": {"@id": "https://www.amarrokaudiovisual.com.br/#organization"}
+        }
       ]
     }
     </script>

@@ -23,9 +23,12 @@ export const Hero = () => (
         Engenharia de Experiências Audiovisuais
       </p>
       <h1 className="flex justify-center">
+        <span className="sr-only">Amarrok — Engenharia Audiovisual em Campinas</span>
         <img
           src={logo}
-          alt="Amarrok"
+          alt=""
+          aria-hidden="true"
+          fetchPriority="high"
           style={{
             mixBlendMode: "screen",
             WebkitMaskImage:
