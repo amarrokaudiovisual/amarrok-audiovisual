@@ -27,7 +27,7 @@ export const Header = () => {
     <header
       className={cn(
         "fixed top-0 inset-x-0 z-40 transition-all duration-500",
-        scrolled ? "glass py-3" : "bg-transparent py-5"
+        scrolled ? "glass py-3" : "bg-[#0a0a0a]/95 backdrop-blur-sm py-5 border-b border-white/5"
       )}
     >
       <div className="container flex items-center justify-between">
