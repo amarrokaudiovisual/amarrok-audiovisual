@@ -1,3 +1,16 @@
+/* Self-hosted fonts — elimina dependência do Google Fonts CDN (LCP, CLS) */
+@import '@fontsource/syncopate/latin-400.css';
+@import '@fontsource/syncopate/latin-700.css';
+@import '@fontsource/space-grotesk/latin-300.css';
+@import '@fontsource/space-grotesk/latin-400.css';
+@import '@fontsource/space-grotesk/latin-500.css';
+@import '@fontsource/space-grotesk/latin-600.css';
+@import '@fontsource/space-grotesk/latin-700.css';
+@import '@fontsource/inter/latin-300.css';
+@import '@fontsource/inter/latin-400.css';
+@import '@fontsource/inter/latin-500.css';
+@import '@fontsource/inter/latin-600.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -153,4 +166,21 @@
     transform: translateY(-50%);
   }
   .lens-flare:hover::after { left: 100%; }
+}
+
+/* Acessibilidade: respeita preferência do sistema por movimento reduzido */
+/* Elimina contention de LCP e protege usuários com transtornos vestibulares */
+@media (prefers-reduced-motion: reduce) {
+  .animate-fog-drift,
+  .animate-laser-pulse,
+  .animate-fade-in,
+  .animate-fade-in-up {
+    animation: none !important;
+  }
+
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
 }
