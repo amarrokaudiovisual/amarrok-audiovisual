@@ -51,6 +51,13 @@ export const Location = () => (
             <MessageCircle className="h-4 w-4" />
             <span>(19) 98284-6842</span>
           </a>
+          <a
+            href="mailto:amarrokaudiovisual@gmail.com"
+            className="mt-4 inline-flex items-center gap-3 px-6 py-3 border border-gold/30 bg-background text-xs uppercase tracking-[0.3em] font-heading text-gold/80 transition-all duration-500 hover:border-gold hover:text-gold"
+          >
+            <Mail className="h-4 w-4" />
+            <span>amarrokaudiovisual@gmail.com</span>
+          </a>
         </div>
       </div>
     </div>
