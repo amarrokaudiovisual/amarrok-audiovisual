@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Logo } from "./Logo";
 import { cn } from "@/lib/utils";
 
 const links = [
@@ -31,8 +30,12 @@ export const Header = () => {
       )}
     >
       <div className="container flex items-center justify-between">
-        <a href="#top" aria-label="Amarrok início">
-          <Logo />
+        <a
+          href="#top"
+          aria-label="Amarrok início"
+          className="font-heading text-sm md:text-base uppercase tracking-[0.35em] text-foreground hover:text-gold transition-colors duration-300"
+        >
+          Amarrok
         </a>
         <nav className="hidden md:flex items-center gap-8">
           {links.map((l) => (
