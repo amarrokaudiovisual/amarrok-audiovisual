@@ -58,7 +58,7 @@ export const Realizations = () => (
               {f.title === "Grandes Celebrações Sociais" ? (
                 <>
                   <a
-                    href="https://www.bandabarbiekills.com.br/casamentos"
+                    href="https://www.bandabarbiekills.com.br/cidade/banda-casamento-campinas"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground no-underline not-italic hover:text-muted-foreground transition-colors"

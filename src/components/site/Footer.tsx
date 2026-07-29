@@ -50,7 +50,7 @@ export const Footer = () => (
           <a
             href="https://www.bandabarbiekills.com.br"
             target="_blank"
-            rel="noopener noreferrer external"
+            rel="noopener noreferrer"
             className="text-muted-foreground/80 hover:text-gold transition-colors underline-offset-4 hover:underline"
           >
             Banda Barbie Kills
