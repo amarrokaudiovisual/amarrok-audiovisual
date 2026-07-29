@@ -63,7 +63,7 @@ export const Realizations = () => (
                     rel="noopener noreferrer"
                     className="text-muted-foreground no-underline not-italic hover:text-muted-foreground transition-colors"
                   >
-                    Casamentos premium
+                    Casamentos de alto padrão
                   </a>
                   , aniversários de 15 anos e festas de gala onde a pista de dança precisa de energia máxima, iluminação cenográfica que valoriza a decoração e DJs com leitura de público em tempo real.
                 </>

@@ -5,7 +5,6 @@ import { Pzf } from "@/components/site/Pzf";
 import { Realizations } from "@/components/site/Realizations";
 import { Process } from "@/components/site/Process";
 import { ServiceShowcase } from "@/components/site/ServiceShowcase";
-import { Partners } from "@/components/site/Partners";
 import { Blog } from "@/components/site/Blog";
 import { Location } from "@/components/site/Location";
 import { Footer } from "@/components/site/Footer";
@@ -78,7 +77,6 @@ const Index = () => {
         />
 
         <Process />
-        <Partners />
         <Blog />
         <Location />
       </main>
