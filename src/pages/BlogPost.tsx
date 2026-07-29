@@ -4,7 +4,7 @@ import { ArrowLeft } from "lucide-react";
 import { getPostBySlug } from "@/data/blogPosts";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
-import { NotFound } from "./NotFound";
+import NotFound from "./NotFound";
 
 const SITE_URL = "https://www.amarrokaudiovisual.com.br";
 
