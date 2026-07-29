@@ -17,7 +17,6 @@ const routesToPrerender = [
   '/blog/audiovisual-casamento-campinas',
   '/blog/led-fine-pitch-eventos-luxo',
   '/blog/rcf-italy-fidelidade-sonora',
-  '/blog/leitura-de-pista-dj-eventos',
 ]
 
 for (const url of routesToPrerender) {

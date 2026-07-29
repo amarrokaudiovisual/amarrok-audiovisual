@@ -56,7 +56,7 @@ Para casamentos, trabalhamos com três camadas de iluminação que operam de for
 
 O audiovisual de um casamento não existe isolado da atração musical. Som, luz e banda precisam funcionar como um sistema integrado — e isso só acontece quando há comunicação real entre as equipes antes do evento.
 
-A Amarrok tem parceria estabelecida com a [Banda Barbie Kills](https://www.bandabarbiekills.com.br/cidade/banda-casamento-campinas), referência em casamentos de alto padrão em Campinas. O rider técnico da banda é compatível com nossa estrutura, o setup de palco é alinhado com antecedência e a equipe técnica da Amarrok e da banda trabalha em sincronia no dia do evento. O resultado é uma transição fluida entre cerimônia, coquetel e festa — sem silêncios, sem reconfiguração de última hora, sem estresse para os organizadores.
+A Amarrok tem parceria estabelecida com a [Banda Barbie Kills](https://www.bandabarbiekills.com.br/cidade/banda-casamento-campinas), referência em casamentos de alto padrão em Campinas, e com o [DJ Alexandre AS](https://www.djalexandreas.com.br), parceiro para a trilha sonora do coquetel e do pós-show. O rider técnico da banda é compatível com nossa estrutura, o setup de palco é alinhado com antecedência e a equipe técnica da Amarrok, da banda e do DJ trabalha em sincronia no dia do evento. O resultado é uma transição fluida entre cerimônia, coquetel e festa — sem silêncios, sem reconfiguração de última hora, sem estresse para os organizadores.
 
 Essa integração entre audiovisual e atração musical é o que diferencia um evento bem produzido de um evento realmente memorável.
 
@@ -132,43 +132,6 @@ O equipamento de ponta não substitui o técnico de som. Em eventos de alto padr
 Cada salão tem uma acústica diferente. Madeira, vidro, pé-direito alto, espaços ao ar livre — cada ambiente exige uma equalização específica. Um técnico experiente com o equipamento certo faz essa leitura em tempo real e garante que o som seja consistente do primeiro ao último acorde.
 
 A Amarrok Audiovisual opera sistemas RCF em eventos em Campinas, Jundiaí, Vinhedo, Sorocaba e em toda a região a até duas horas de Campinas.`,
-  },
-  {
-    slug: "leitura-de-pista-dj-eventos",
-    title: "Leitura de pista: a arte invisível por trás de um DJ sofisticado",
-    metaTitle: "Leitura de Pista: A Arte do DJ em Eventos de Alto Padrão | Amarrok",
-    metaDescription: "Curadoria musical em tempo real, repertório cosmopolita e a conexão precisa com o perfil dos convidados. O que define um DJ sofisticado em eventos de luxo.",
-    excerpt: "Curadoria musical em tempo real, repertório cosmopolita e a conexão precisa com o perfil dos anfitriões.",
-    category: "DJ & Música",
-    date: "05 Fev 2025",
-    readTime: "6 min",
-    content: `Leitura de pista é a capacidade de um DJ ajustar o repertório em tempo real a partir do comportamento dos convidados. É a habilidade mais difícil de desenvolver e a mais determinante para o sucesso de um evento — e a menos visível para quem não sabe o que observar.
-
-## O que é leitura de pista na prática
-
-Um DJ que toca uma setlist pré-definida independente do que acontece no salão não está lendo a pista. Está executando um programa. A diferença aparece nos momentos de inflexão: quando a pista esvazia após uma sequência de músicas erradas, quando o perfil etário do público muda ao longo da noite, quando o momento do brinde exige uma transição que não estava prevista.
-
-Leitura de pista é perceber esses sinais antes que o dano aconteça e ajustar o curso. É antecipar, não reagir.
-
-## Repertório cosmopolita como condição de entrada
-
-Em eventos de alto padrão com convidados de perfis diversos — etários, culturais, geográficos — um repertório limitado a um gênero ou uma década é uma restrição real. O DJ precisa transitar com naturalidade entre MPB, pop internacional, R&B, house, rock e samba sem que as transições soem forçadas.
-
-Essa versatilidade não é eclética no sentido aleatório. É curadoria: saber quais músicas funcionam como pontes entre gêneros, quais artistas têm apelo transgeracional, quais momentos da noite comportam experimentação e quais exigem o hit reconhecível que faz todo mundo ir para a pista.
-
-## A integração com a banda ao vivo
-
-Em casamentos e eventos corporativos de alto padrão, é comum a combinação de banda ao vivo e DJ. A transição entre os dois precisa ser fluida — sem quedas de energia, sem silêncios constrangedores, sem reconfiguração técnica visível.
-
-A Amarrok coordena essa integração tecnicamente e musicalmente. O DJ e a banda compartilham a mesma infraestrutura de som e trabalham com alinhamento prévio de repertório e momentos de transição. Para casamentos em Campinas, nossa parceria com a [Banda Barbie Kills](https://www.bandabarbiekills.com.br/cidade/banda-casamento-campinas) garante essa coesão — dois fornecedores com linguagem técnica e musical compatível, operando como um sistema único.
-
-## O que observar antes de contratar um DJ
-
-Peça vídeos de sets ao vivo, não de estúdio. Observe como o DJ interage com o público, como faz as transições entre gêneros e como responde quando a pista está vazia. Um bom DJ em um evento ruim mostra mais do que um bom DJ em um evento que já estava animado.
-
-Pergunte sobre o repertório para o perfil específico dos seus convidados. Um DJ que não faz perguntas sobre o público antes do evento provavelmente não vai fazer leitura de pista durante.
-
-A Amarrok Audiovisual integra DJ, banda ao vivo, som e iluminação em um único contrato para eventos em Campinas e região.`,
   },
 ];
 
