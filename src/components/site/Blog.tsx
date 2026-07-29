@@ -1,4 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import { SectionHeading } from "./SectionHeading";
 import { blogPosts } from "@/data/blogPosts";
 
@@ -13,7 +14,8 @@ export const Blog = () => (
 
       <div className="mt-20 grid gap-px bg-border border border-border md:grid-cols-3">
         {blogPosts.map((post) => (
-          <article key={post.slug} className="group bg-background p-8 md:p-10 hover:bg-card transition-colors duration-500 cursor-pointer relative overflow-hidden">
+          <Link key={post.slug} to={`/blog/${post.slug}`}>
+          <article className="group bg-background p-8 md:p-10 hover:bg-card transition-colors duration-500 cursor-pointer relative overflow-hidden h-full">
             <div className="absolute top-0 left-0 h-px w-0 bg-primary group-hover:w-full transition-all duration-700 shadow-[0_0_8px_hsl(var(--red)/0.8)]" />
             <div className="flex items-center justify-between text-[0.65rem] tracking-[0.3em] uppercase font-heading text-muted-foreground">
               <span className="text-gold">{post.category}</span>
@@ -35,6 +37,7 @@ export const Blog = () => (
               </span>
             </div>
           </article>
+          </Link>
         ))}
       </div>
 

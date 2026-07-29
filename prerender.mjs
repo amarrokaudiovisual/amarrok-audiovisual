@@ -11,8 +11,14 @@ const template = fs.readFileSync(toAbsolute('dist/index.html'), 'utf-8')
 // SSR bundle compilado pelo build --ssr
 const { render } = await import('./dist/server/entry-server.js')
 
-// Rotas a pré-renderizar — adicionar aqui quando houver páginas de cidade
-const routesToPrerender = ['/']
+// Rotas a pré-renderizar
+const routesToPrerender = [
+  '/',
+  '/blog/audiovisual-casamento-campinas',
+  '/blog/led-fine-pitch-eventos-luxo',
+  '/blog/rcf-italy-fidelidade-sonora',
+  '/blog/leitura-de-pista-dj-eventos',
+]
 
 for (const url of routesToPrerender) {
   const appHtml = render(url)
