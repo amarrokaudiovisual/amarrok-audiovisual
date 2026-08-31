@@ -49,7 +49,7 @@ export const Header = () => {
           ))}
         </nav>
         <a
-          href="https://wa.me/5519982846842"
+          href="https://wa.me/5519981736659"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:inline-flex items-center text-[0.7rem] uppercase tracking-[0.3em] font-heading text-gold border border-gold/40 px-4 py-2 hover:bg-gold hover:text-gold-foreground transition-all duration-300"

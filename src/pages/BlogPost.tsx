@@ -112,7 +112,7 @@ export default function BlogPost() {
             </h3>
             <div className="mt-4 h-px w-16 bg-gradient-to-r from-transparent via-gold/60 to-transparent mx-auto" />
             <a
-              href="https://wa.me/5519982846842"
+              href="https://wa.me/5519981736659"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 inline-flex items-center gap-3 bg-primary text-primary-foreground px-8 py-4 text-[0.7rem] tracking-[0.4em] uppercase font-heading hover:bg-primary/90 transition-colors"
