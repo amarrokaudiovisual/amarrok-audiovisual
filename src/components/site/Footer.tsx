@@ -32,7 +32,7 @@ export const Footer = () => (
           <a
             href="https://www.instagram.com/amarrok_producoes/"
             target="_blank"
-            rel="noopener noreferrer external"
+            rel="noopener noreferrer"
             aria-label="Instagram da Amarrok Audiovisual"
             className="text-muted-foreground/60 hover:text-gold transition-colors duration-300"
           >
@@ -56,7 +56,7 @@ export const Footer = () => (
             Banda para Casamento em Campinas
           </a>
           <span className="mx-2 text-muted-foreground/40" aria-hidden="true">|</span>
-                    <a
+          <a
             href="https://www.djalexandreas.com.br"
             target="_blank"
             rel="noopener noreferrer"
@@ -71,7 +71,7 @@ export const Footer = () => (
             rel="noopener noreferrer"
             className="text-muted-foreground/80 hover:text-gold transition-colors underline-offset-4 hover:underline"
           >
-            Palco para Eventos Corporativos
+            Palco Corporativo: Artistas para Eventos
           </a>
         </p>
       </div>
