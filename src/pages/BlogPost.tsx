@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { ArrowLeft } from "lucide-react";
@@ -11,6 +12,10 @@ const SITE_URL = "https://www.amarrokaudiovisual.com.br";
 export default function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
   const post = getPostBySlug(slug || "");
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [slug]);
 
   if (!post) return <NotFound />;
 

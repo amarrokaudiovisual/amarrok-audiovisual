@@ -131,7 +131,11 @@ O equipamento de ponta não substitui o técnico de som. Em eventos de alto padr
 
 Cada salão tem uma acústica diferente. Madeira, vidro, pé-direito alto, espaços ao ar livre — cada ambiente exige uma equalização específica. Um técnico experiente com o equipamento certo faz essa leitura em tempo real e garante que o som seja consistente do primeiro ao último acorde.
 
-A Amarrok Audiovisual opera sistemas RCF em eventos em Campinas, Jundiaí, Vinhedo, Sorocaba e em toda a região a até duas horas de Campinas.`,
+A Amarrok Audiovisual opera sistemas RCF em eventos em Campinas, Jundiaí, Vinhedo, Sorocaba e em toda a região a até duas horas de Campinas.
+
+## Quem exige muito de som escolhe a Amarrok
+
+A [Banda Barbie Kills](https://www.bandabarbiekills.com.br) é ultra exigente com som e homologou a Amarrok como fornecedor de sonorização. A Amarrok atende a banda com o sistema RCF descrito neste artigo, em shows e casamentos de alto padrão.`,
   },
 ];
 
