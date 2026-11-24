@@ -43,13 +43,13 @@ export const Location = () => (
             Atendimento personalizado para projetos exclusivos.
           </p>
           <a
-            href="https://wa.me/5519984289330?text=Ol%C3%A1%20Amarrok%2C%20gostaria%20de%20um%20or%C3%A7amento."
+            href="https://wa.me/5519990318155?text=Ol%C3%A1%20Amarrok%2C%20gostaria%20de%20um%20or%C3%A7amento."
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 inline-flex items-center gap-3 px-6 py-3 border border-primary bg-background text-xs uppercase tracking-[0.3em] font-heading text-foreground transition-all duration-500 hover:shadow-laser hover:bg-primary/10"
           >
             <MessageCircle className="h-4 w-4" />
-            <span>(19) 98284-6842</span>
+            <span>(19) 99031-8155</span>
           </a>
           <a
             href="mailto:amarrokaudiovisual@gmail.com"
